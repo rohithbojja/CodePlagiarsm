@@ -11,7 +11,15 @@ This readme file provides instructions on how to use the Plagiarism Checker tool
 
 ## Getting Started
 
-### 1. Organize Your Files
+### 1. Clone the Repository
+
+If you haven't already, clone the Plagiarism Checker repository to your local machine.
+
+```bash
+git clone https://github.com/your-username/plagiarism-checker.git
+cd plagiarism-checker
+```
+### 2. Organize Your Files
 
 Before running the Plagiarism Checker, make sure you have two specific folders set up:
 
@@ -19,21 +27,12 @@ Before running the Plagiarism Checker, make sure you have two specific folders s
 
 - **Uploaded Files**: Put the documents you want to compare the test files with in the `uploaded_files` folder. These are the documents that will be used as reference.
 
-### 2. Install Dependencies (if not already installed)
+### 3. Install Dependencies (if not already installed)
 
 Make sure you have Python installed on your system. Additionally, ensure you have the required dependencies. If you haven't already, you can install them using the following command:
 
 ```bash
 pip install -r requirements.txt
-```
-
-### 3. Clone the Repository
-
-If you haven't already, clone the Plagiarism Checker repository to your local machine.
-
-```bash
-git clone https://github.com/your-username/plagiarism-checker.git
-cd plagiarism-checker
 ```
 
 ## Running the Plagiarism Checker
